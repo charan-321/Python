@@ -1,0 +1,20 @@
+#integer
+a=10;
+print(type(a));
+#float
+b=10.5;
+print(type(b));
+#string
+c="hello";
+print(type(c));
+#boolean
+d=True;
+print(type(d));
+#complex
+e=3+4j;
+print(type(e));
+d,e="hello","world".split();
+print(d);
+print(e);
+del e;
+print(e);
